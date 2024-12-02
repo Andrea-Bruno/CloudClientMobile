@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Uup Cloud",
+    "slug": "cloud-storage",
+    "icon": "./assets/Uup-cloud.png",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["@notifee/react-native"],
+    "android": {
+      "package": "com.khayym.cloudstorage",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.khayym.cloudstorage",
+      "supportsTablet": false,
+      "infoPlist": {
+        "UIBackgroundModes": ["fetch", "processing"]
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3cfaed27-4cee-4548-8440-cc2e446fb352"
+      }
+    }
+  }
+}
